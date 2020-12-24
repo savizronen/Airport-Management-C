@@ -20,7 +20,7 @@ void freeAirportmanager(Airport_manager* airport_manager);
 
 void printAirportsList(const Airport_manager* airport_manager);
 
-void printAirportmanager(const Airport_manager* airport_manager); // V
+void printAirportmanager(const Airport_manager* airport_manager);
 
 #endif
 
