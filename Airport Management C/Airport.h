@@ -11,13 +11,13 @@ typedef struct {
 
 Airport* initAirport();
 
-int isAirportEqual(Airport* one, Airport* two); // V
+int isAirportEqual(Airport* one, Airport* two); 
 
-int isAirport_IATA_Equal(Airport* airport, char IATA[]); // V
+int isAirport_IATA_Equal(Airport* airport, char IATA[]); 
 
 void freeAirport(Airport* airport);
 
-void printAirport(const Airport* airport); // V
+void printAirport(const Airport* airport); 
 
 #endif
 
